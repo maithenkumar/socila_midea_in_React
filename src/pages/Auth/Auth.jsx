@@ -45,7 +45,7 @@ function LogIn() {
   
           <div>
               <span style={{ fontSize: "12px" }}>
-                Don't have an account <button onClick={SignUp} >Sign up</button>
+                Don't have an account Sign up</button>
               </span>
              
             <button className="button infoButton" > Sigin</button>
