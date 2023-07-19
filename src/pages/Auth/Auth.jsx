@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as   Route  } from 'react-router-dom';
 
 import "./Auth.css";
 import Logo from "../../img/logo.png";
@@ -49,7 +48,7 @@ function LogIn() {
                 Don't have an account <button onClick={SignUp} >Sign up</button>
               </span>
              
-            <button className="button infoButton" > <Route exact path="/" component={home} /> Sigin</button>
+            <button className="button infoButton" > Sigin</button>
           </div>
         </form>
       </div>
